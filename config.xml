@@ -21,7 +21,7 @@
     <preference name="fullscreen"       value="true" />
 
     <preference name="webviewbounce" value="true" />
-    <preference name="disable-cursor" value="true" />
+    <preference name="disable-cursor" value="false" />
 
     <icon src="icon.png" />
     <icon src="res/icon/blackberry/icon.png"     gap:platform="blackberry" />
@@ -34,7 +34,7 @@
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" /> -->
 
-    <gap:splash src="res/splash/blackberry/splash.png" gap:platform="blackberry" width="480" height="360" />
+    <gap:splash src="res/splash/blackberry/splash.png" gap:platform="blackberry" />
     <!--
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
