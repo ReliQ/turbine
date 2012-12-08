@@ -25,7 +25,7 @@ var healthCareAid = 0;
 window.onload = function()
 {
 	welcome();
-	document.getElementById('title').innerHTML = "Turbine Income Management System <sup>Alpha</sup>";
+	document.getElementById('title').innerHTML = "Turbine Income Management System";
 	document.getElementById('footer').innerHTML = "By Patrick Reid (1101346)<br/>A Web Software Tools & Technology Project<br/>&copy; 2012";
 }
 
