@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.reliqartz.tim"
+        version   = "0.0.1">
+    <name>TIM: Turbine Income Management System</name>
+
+    <description>
+        Turbine Income Management System by ReliQ Artz
+    </description>
+
+    <author href="http://www.reliqartz.com" email="reliq@reliqartz.com">
+        ReliQ Artz Inc. RQA3
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="false" />
+
+    <preference name="webviewbounce" value="true" />
+    <preference name="disable-cursor" value="true" />
+
+    <icon src="icon.png" />
+    <icon src="res/icon/blackberry/icon.png"     gap:platform="blackberry" />
+    <icon src="res/icon/blackberry/icon-2.png"     gap:platform="blackberry" gap:state="hover"/>
+
+    <gap:splash src="splash.png" />
+
+    <!-- <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" /> -->
+
+    <gap:splash src="res/splash/blackberry/splash.png" gap:platform="blackberry" width="480" height="360" />
+    <!--
+    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+    -->
+</widget>
