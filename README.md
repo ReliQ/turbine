@@ -18,4 +18,4 @@ Relevant files will be replaced.
 
 
 ###### Author
-_(C) 2013 [Patrick Reid](http://reliqartz.co
+*(C) 2013 [Patrick Reid](http://reliqartz.com)*
