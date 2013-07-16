@@ -7,5 +7,5 @@ The Turbine Project. Turbine Income Management Tool (TIM)
 
 
 
-**Author**
+*Author*
 2013 [Patrick Reid](http://reliqartz.com)
